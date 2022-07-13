@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#divPesquisa{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pesquisa{
+    width: 80%;
+    height: 60%;
+    margin-top: 12px;
+    border: 1px solid #7b7b7b;
+}
+
+nav{
+    text-align: right;
+    margin-top: 12px;
+}
+
+#icon-nav{
+    font-size: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #7b7b7b;
+}
+
+.linksNavegacao{
+    text-decoration: none;
+    color: #7b7b7b;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+#cart-shopping{
+     color: #f6f6f6;
+     margin-right: 10px;
+}
+ 
+#botaoCarrinho{
+    font-size: medium;
+    background-color: rgb(96 96 96);
+    color: #f6f6f6;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 30px;
+    border-radius: 3px;
+}
+    
+main{
+    margin-top: -35px;
+}
+
+h1{
+    color: rgb(128 128 128);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#hr1{
+    width: 13%;
+    color: #7b7b7b;
+    margin-top: 60px;
+    border: 1px solid #a7a4a485
+}
+
+#telaInicio{
+    background-color: #f6f6f6;
+    padding-top: 70px;
+    text-align: center;
+    border-bottom: 2px solid rgb(220 220 220);
+}
+
+.imgTelaInicio{
+    border: 1px solid #a7a4a485;
+    border-radius: 2px;
+    margin: 0 30px;
+}
+
+#imagensInicio{
+   margin-top: 50px;
+}
+
+#botaoCompra{
+    background-color: rgb(96 96 96);
+    color: #f6f6f6;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 3px;
+    width: 14%;
+    margin-top: 50px;
+    font-size: 30px;
+    padding-bottom: 8px;
+    margin-bottom: 50px;
+}
+
+#telaFeature, #telaCatalogo, #telaAbout, #divFooter{
+    border-bottom: 1px solid rgb(220 220 220);
+}
+
+#divFeature{
+    display: flex;
+    justify-content: center;
+}
+
+.seta{
+    color: #7b7b7b;
+    font-size: 40px;
+    margin-top: 115px;
+}
+
+.imgFeature{
+    width: 35%;
+    border: 1px solid #7b7b7b;
+    border-radius: 3px;
+    margin: 30px 30px;
+    border-right-style: none;
+}
+
+#telaFeature{
+    padding: 80px 0;
+}
+
+#tituloNewsletter{
+    text-align: inherit;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#telaNewsletter{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(220 220 220);
+    padding-bottom: 50px;
+}
+
+.divNewsletter{
+    width: 50%;
+    display: flex;
+}
+
+.textoNewsletter{
+    font-family: 'Lato', sans-serif;
+    color: #a7a4a4;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#botaoSubscribe{
+    font-size: medium;
+    background-color: #ebe8e8;
+    color: #7b7b7b;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 30px;
+    border-radius: 3px;
+    font-weight: bolder;
+    height: 40px;
+    margin-top: 100px;
+}
+
+#email{
+    font-size: larger;
+    border-radius: 2px;
+    border: 1px solid #939393;
+    width: 60%;
+    height: 26%;
+    margin-right: 15px;
+    margin-top: 100px;
+}
+
+#email::placeholder, #pesquisa::placeholder{
+    color: #7b7b7b;
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+}
+
+#telaAbout{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#tituloAbout{
+    margin-bottom: 10px;
+}
+
+#divFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+#iconeFooter{
+    color: #7b7b7b;
+    margin-left: 100px;
+    font-size: 60px;
+    margin-top: 45px;
+}
+
+ul{
+    list-style: none;
+    color: #a7a4a4;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin: 0 50px;
+}
+
+li{
+    padding: 7px;
+}
+
+#listaFooter{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lista{
+    color: #a7a4a4;
+    text-decoration: none;
+}
+
+#divCompany{
+    display: flex;
+    padding: 15px 90px;
+}
+
+#company{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 5px;
+}
+
+i{
+    color: #7b7b7b;
+}
+
+#hrFooter{
+    width: 35%;
+    margin-left: 91px;
+    margin-top: 15px;
+    border: 1px solid #a7a4a485
+}
+
+.endereco{
+    font-size: small;
+    margin-left: 90px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.textoAbout, .preco{
+    font-family: 'Lato', sans-serif;
+    color: #a7a4a4;
+    font-weight: bold;
+}
+
+#telaCatalogo{
+    display: flex;
+    justify-content: space-between;
+}
+.imgCatalogoUm{
+    border: 1px solid #7b7b7b;
+    width: 80%;
+}
+
+.imgCatalogoDois{
+    border: 1px solid #7b7b7b;
+}
+
+#fotoUm{
+    width: 33%;
+    padding: 70px;
+    margin-left: 30px;
+}
+
+#fotoDois{
+    width: 77%;
+}
+
+#fotoDois{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    margin-left: 30px;
+}
+
+.preco{
+    display: flex;
+}
+
+.produto, .valor{
+    font-family: 'Lato', sans-serif;
+    color: #a7a4a4;
+    font-weight: bold;
+}
+
+.divPreco, .divEstrelas{
+    width: 50%;
+    margin: 20px 0;
+}
+
+.divEstrelas{
+    text-align: end;
+    margin-right: 100px;
+}
+
+.divEstrelasDois{
+    margin: 20px 0;
+    width: 50%;
+    text-align: end;
+}
+
+
+#colunaUm{
+    margin: 0 15px;
+}
+
+.clarear{
+    color: #a7a4a4;
+    
+}
+
+.modal{
+    z-index:1;
+    position: fixed;
+    top:0;
+    left:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0.25s ease-in-out , opacity 0.25s ease-in-out, transform 0.25s ease-in-out;   
+}
+
+.close-button{
+   float: right;
+   width: 24px;
+   line-height: 24px;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 0.25rem;
+   background-color: lightgray;
+}
+
+.close-button:hover{
+    background-color: darkgray;
+    margin: 3px;
+}
+
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);    
+}
+
+.imagemModal{
+    border: 1px solid #7b7b7b;
+    width: 100%;
+}

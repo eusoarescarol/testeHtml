@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48ac1a426b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"> 
+    <title>Teste</title>
+</head>
+<body>
+    <header>
+        <div id="divPesquisa">
+            <i id="icon-nav" class="fa-solid fa-mountain-sun"></i>
+            <input id="pesquisa" placeholder="Search...">
+        </div>
+        <nav>
+            <a class="linksNavegacao" href="#">Home</a> |
+            <a class="linksNavegacao" href="#">About</a> |
+            <a class="linksNavegacao" href="#">Shop</a> |
+            <a class="linksNavegacao" href="#">Help</a>
+            <button id="botaoCarrinho"><i id="cart-shopping" class="fa-solid fa-cart-shopping"></i>Your Cart</button>
+        </nav>
+    </header>
+    <main>
+        <div id="telaInicio">
+            <div>
+                <h1>Tagline describing your e-shop</h1>
+                <hr id="hr1"/>
+            </div>
+            <div id="imagensInicio">
+                <img class="imgTelaInicio" src="imagens/img-1.jpg" />
+                <img class="imgTelaInicio" src="imagens/img-1.jpg" />
+                <img class="imgTelaInicio" src="imagens/img-1.jpg" />    
+            </div>
+            <button id="botaoCompra">Shop Now</button>
+        </div>
+        <div id="telaFeature">
+            <h1>Featured Products</h1>
+            <div id="divFeature">
+                <i class="fa-solid fa-caret-left seta"></i>
+                <img class="imgFeature" src="imagens/img-3.jpg" />
+                <img class="imgFeature" src="imagens/img-3.jpg" />
+                <i class="fa-solid fa-caret-right seta"></i>
+            </div>
+        </div>
+        <div id="telaNewsletter">
+            <div> 
+                <h1 id="tituloNewsletter">Newsletter</h1>           
+                <span class="textoNewsletter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla</span><br>
+                <span class="textoNewsletter">quam velit, vulputate eu phatera nec, mattis ac neque.</span>
+            </div>
+            <div class="divNewsletter">
+                <input id="email" placeholder="Email Address">
+                <button id="botaoSubscribe">Subscribe</button>
+            </div>
+        </div>
+        <div id="telaCatalogo">
+            <div id="fotoUm">
+                <img onclick="showModal()" class="imgCatalogoUm" src="imagens/img-2.jpg">
+                <div class="preco">
+                    <div class="divPreco">
+                        <span class="produto">PRODUCT NAME</span><br>
+                        <span class="valor">$300</span>   
+                    </div>
+                    <div class="divEstrelas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star clarear"></i>
+                        <i class="fa-solid fa-star clarear"></i>
+                    </div>   
+                </div>
+            </div>
+            <div id="fotoDois">
+                <div id="colunaUm">
+                    <img onclick="showModal()" class="imgCatalogoDois" src="imagens/img-3.jpg"> 
+                    <div class="preco">
+                        <div class="divPreco">
+                            <span class="produto">PRODUCT NAME</span><br>
+                            <span class="valor">$300</span>   
+                        </div>
+                        <div class="divEstrelasDois">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star clarear"></i>
+                            <i class="fa-solid fa-star clarear"></i>
+                        </div>   
+                    </div>
+                    <img onclick="showModal()" class="imgCatalogoDois" src="imagens/img-3.jpg"> 
+                    <div class="preco">
+                        <div class="divPreco">
+                            <span class="produto">PRODUCT NAME</span><br>
+                            <span class="valor">$300</span>   
+                        </div>
+                        <div class="divEstrelasDois">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star clarear"></i>
+                            <i class="fa-solid fa-star clarear"></i>
+                        </div>   
+                    </div>
+                </div>
+                <div>
+                    <img onclick="showModal()" class="imgCatalogoDois" src="imagens/img-3.jpg"> 
+                    <div class="preco">
+                        <div class="divPreco">
+                            <span class="produto">PRODUCT NAME</span><br>
+                            <span class="valor">$300</span>   
+                        </div>
+                        <div class="divEstrelasDois ">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star clarear"></i>
+                            <i class="fa-solid fa-star clarear"></i>
+                        </div>   
+                    </div>
+                    <img onclick="showModal()" class="imgCatalogoDois" src="imagens/img-3.jpg"> 
+                    <div class="preco">
+                        <div class="divPreco">
+                            <span class="produto">PRODUCT NAME</span><br>
+                            <span class="valor">$300</span>   
+                        </div>
+                        <div class="divEstrelasDois">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star clarear"></i>
+                            <i class="fa-solid fa-star clarear"></i>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="telaAbout">
+            <h1 id="tituloAbout">About Your Shop</h1>
+            <span class="textoAbout">Sed ut erspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</span><br>
+            <span class="textoAbout">laudantium, totam rem aperiam, eraque ipsa quae ab illo inventore veritatis et quasi</span>
+        </div>
+    </main>
+    <footer>
+        <div id="divFooter">
+            <div id="divIconeFooter">
+                <i id="iconeFooter" class="fa-solid fa-mountain-sun"></i>
+                <hr id="hrFooter"> 
+                <span class="endereco">1717 Harrison St, San Frencisco,</span><br>
+                <span class="endereco">CA 94103, USA</span>
+            </div>
+            <div id="listaFooter">
+                <ul>
+                    <li>MAIN MENU</li>
+                    <li><a class="lista" href="#">Home</a></li>
+                    <li><a class="lista" href="#">About</a></li>
+                    <li><a class="lista" href="#">Shop</a></li>
+                    <li><a class="lista" href="#">Help</a></li>
+                </ul>
+                <ul>
+                    <li>COMPANY</li>
+                    <li><a class="lista" href="#">The Company</a></li>
+                    <li><a class="lista" href="#">Careers</a></li>
+                    <li><a class="lista" href="#">Press</a></li>
+                </ul>
+                <ul>
+                    <li>DISCOVER</li>
+                    <li><a class="lista" href="#">The Team</a></li>
+                    <li><a class="lista" href="#">Our History</a></li>
+                    <li><a class="lista" href="#">Brand Motto</a></li>
+                </ul>
+                <ul>
+                    <li>FIND US ON</li>
+                    <li><a class="lista" href="#">Facebook</a></li>
+                    <li><a class="lista" href="#">Twitter</a></li>
+                    <li><a class="lista" href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="divCompany">
+            <i class="fa-solid fa-circle"></i>
+            <span id="company">Your Company Name</span>
+        </div>
+    </footer>
+    <button class="trigger" onclick="showModal()">HelloWorld</button>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">
+                &times;
+            </span>
+            <img class="imagemModal" src="imagens/img-2.jpg"> 
+        </div>
+    </div>
+</body>
+</html>
+<script>
+     function showModal() {
+        var element = document.getElementById("modal");
+        element.classList.add("show-modal");
+    }
+
+    function closeModal() {
+        var element = document.getElementById("modal");
+        element.classList.remove("show-modal");
+    }
+</script>
